@@ -1,0 +1,122 @@
+@import "{}/client/styles/black-tie.min.css";
+@import "{}/client/styles/overrides.import.less";
+@import "{}/client/styles/mixins.import.less";
+@import "{}/client/styles/global.import.less";
+
+#heroContainer {
+  background: white;
+  // height: calc(~'100vh - 42px');
+  height: 66vh;
+  overflow: hidden;
+  // z-index: -1;
+}
+
+#vidFrame {
+  position: absolute;
+  // left: 50%;
+  top: 0;
+  // width: 150%;
+  height: 103vh;
+  // margin-left: -75%;
+}
+
+#videoCover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  box-shadow: inset 0 0 40px rgba(0,0,0,0.123);
+  background: fade(white, 77%);
+}
+
+#gifFrame {
+  // position: absolute;
+  // top: 0; left: 0; bottom: 0; right: 0;
+  // width: 100%;
+  // height: 100vh;
+}
+
+// SLIDES
+
+.slide {
+  background: white;
+  box-shadow: 0 0 15px fade(@black, 33%);
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.slideInfo {
+}
+.slideDesc {font-size: 18px;}
+.slideAction {margin-top:40px}
+
+.owl-carousel .owl-stage-outer {
+  overflow: visible;
+}
+
+.owl-item.active .slideInfo {
+  // .transition;
+  // box-shadow: 0 0 15px fade(@black, 33%);
+}
+
+.owl-carousel .owl-nav {
+	width: 100%;
+  color: black;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+	opacity: 0.33;
+	// background: white;
+	font-size: 32px;
+	position: absolute;
+	top: 50%;
+	// margin-top: -20px;
+	padding: 0px 12px;
+  border-radius: 50%;
+  .transition;
+	left: 0px;
+}
+
+.owl-carousel .owl-nav .owl-next {
+	opacity: 0.33;
+	// background: white;
+	font-size: 32px;
+	position: absolute;
+	top: 50%;
+	// margin-top: -20px;
+	padding: 0px 12px;
+  border-radius: 50%;
+  .transition;
+	right: 0px;
+}
+
+.owl-carousel.owl-drag .owl-item {
+  padding: 0 60px;
+}
+
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover {
+	.transition;
+	opacity: 1;
+}
+
+
+// CONTENT
+
+#contentContainer {
+  position: relative;
+  z-index: 1;
+  // width: 100vh;
+  // height: 100vh;
+  // overflow: hidden;
+}
+
+#contentContainer .flavorImg {
+  margin-top: -140px;
+}
+
+@import "{}/client/styles/responsive.import.less";
