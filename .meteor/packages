@@ -38,10 +38,9 @@ fastclick
 poetic:meteor-velocity-react
 velocityjs:velocityjs
 
-# UTILS
+# UTILITIES
 cosmos:browserify
 lookback:emoji
-email
 browser-policy
 mystor:device-detection
 alanning:roles
@@ -50,7 +49,6 @@ accounts-password
 london:body-class
 meteorhacks:ssr
 meteorhacks:npm
-
 
 npm-container
 meteorhacks:kadira
