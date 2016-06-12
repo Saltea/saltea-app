@@ -31,7 +31,8 @@
   "appName": "Saltea",
 
   // Location of app (local directory)
-  "app": "/Users/aaronsmulktis/Projects/Saltea/apps/saltea",
+  "app": "/Users/Home/saltea",
+  //"app": "/Users/aaronsmulktis/Projects/Saltea/apps/saltea",
 
   // Configure environment
   "env": {
