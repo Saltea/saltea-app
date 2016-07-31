@@ -136,21 +136,21 @@ Home = React.createClass({
             <div className="container-fluid">
               <div className="col-sm-4 flavorImg">
                 <img src="img/caribbean.gif" title="The Caribbean Sea" alt="The Caribbean Sea"></img>
-                <h1>Caribbean Sea</h1>
+                <h1>The Caribbean Sea</h1>
                 <p>
                   Fresh strawberries, dried rose petals, hibiscus tea, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar.
                 </p>
               </div>
               <div className="col-sm-4 flavorImg">
                 <img src="img/rio-grande.gif" title="The Rio Grande" alt="The Rio Grande"></img>
-                <h1>Rio Grande</h1>
+                <h1>The Rio Grande</h1>
                 <p>
                   Fresh lemons, fresh mint, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar.
                 </p>
               </div>
               <div className="col-sm-4 flavorImg">
                 <img src="img/finger-lakes.gif" title="The Finger Lakes" alt="The Finger Lakes"></img>
-                <h1>Finger Lakes</h1>
+                <h1>The Finger Lakes</h1>
                 <p>
                   Fresh green apples, fresh rosemary, jasmine green tea, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar.
                 </p>
