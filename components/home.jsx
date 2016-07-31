@@ -100,23 +100,30 @@ Home = React.createClass({
               <div id="featuredSlider" className="owl-carousel">
                 <div className="slide col-sm-8 col-sm-offset-2">
                   <div className="slideInfo">
-                    <h1 className="slideTitle">You Have Never Tasted Anything Like It.</h1>
-                    <p className="slideDesc">Everybody likes a good balance, there is such a thing as "too much of a good thing".</p>
-                    <a href="/drink" className="btn btn-primary slideAction">Find A Store</a>
+                    <h1 className="slideTitle">You Have Never Tasted Anything Like It</h1>
+                    <p className="slideDesc">
+                      But you'll be wondering why it wasn't there all along.
+                    </p>
+                    <a href="/drink" className="btn btn-default slideAction">Wait, what?</a>
+                    <a href="/drink" className="btn btn-primary slideAction pull-right">OMG, I get it.</a>
                   </div>
                 </div>
                 <div className="slide col-sm-8 col-sm-offset-2">
                   <div className="slideInfo">
-                    <h1 className="slideTitle">The Best of Both Worlds.</h1>
-                    <p className="slideDesc">Lots of people agree</p>
-                    <a href="/drink" className="btn btn-primary slideAction">Get It</a>
+                    <h1 className="slideTitle">A New Class of Tea</h1>
+                    <p className="slideDesc">Its like an all natural organic healthier (and tastier) version of that orange drink with the lightning bolt.</p>
+                    <a href="/drink" className="btn btn-default slideAction">Still Clueless</a>
+                    <a href="/drink" className="btn btn-primary slideAction pull-right">Find Me A Store</a>
                   </div>
                 </div>
                 <div className="slide col-sm-8 col-sm-offset-2">
                   <div className="slideInfo">
-                    <h1 className="slideTitle">Or Just Savor It.</h1>
-                    <p className="slideDesc">Lots of people agree</p>
-                    <a href="/drink" className="btn btn-primary slideAction">Get It</a>
+                    <h1 className="slideTitle">Total Balance 4 Tongues + Bodies</h1>
+                    <p className="slideDesc">
+                      Some would say its the "roundest" tasting drink. Imagine if coconut water and your favorite sports drink had a baby.
+                    </p>
+                    <a href="/drink" className="btn btn-default slideAction">You Are Crazy</a>
+                    <a href="/drink" className="btn btn-primary slideAction pull-right">Brilliant, Buy Now</a>
                   </div>
                 </div>
               </div>
@@ -131,21 +138,21 @@ Home = React.createClass({
                 <img src="img/caribbean.gif" title="The Caribbean Sea" alt="The Caribbean Sea"></img>
                 <h1>Caribbean Sea</h1>
                 <p>
-                  "Fresh strawberries, dried rose petals, hibiscus tea, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar."
+                  Fresh strawberries, dried rose petals, hibiscus tea, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar.
                 </p>
               </div>
               <div className="col-sm-4 flavorImg">
                 <img src="img/rio-grande.gif" title="The Rio Grande" alt="The Rio Grande"></img>
                 <h1>Rio Grande</h1>
                 <p>
-                  "Fresh lemons, fresh mint, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar."
+                  Fresh lemons, fresh mint, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar.
                 </p>
               </div>
               <div className="col-sm-4 flavorImg">
                 <img src="img/finger-lakes.gif" title="The Finger Lakes" alt="The Finger Lakes"></img>
                 <h1>Finger Lakes</h1>
                 <p>
-                  "Fresh green apples, fresh rosemary, jasmine green tea, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar."
+                  Fresh green apples, fresh rosemary, jasmine green tea, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar.
                 </p>
               </div>
             </div>
