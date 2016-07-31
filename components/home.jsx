@@ -113,7 +113,7 @@ Home = React.createClass({
                     <h1 className="slideTitle">A New Class of Tea</h1>
                     <p className="slideDesc">Its like an all natural organic healthier (and tastier) version of that orange drink with the lightning bolt.</p>
                     <a href="/drink" className="btn btn-default slideAction">Still Clueless</a>
-                    <a href="/drink" className="btn btn-primary slideAction pull-right">Find Me A Store</a>
+                    <a href="/drink" className="btn btn-primary slideAction pull-right">Find A Store</a>
                   </div>
                 </div>
                 <div className="slide col-sm-8 col-sm-offset-2">
@@ -122,8 +122,8 @@ Home = React.createClass({
                     <p className="slideDesc">
                       Some would say its the "roundest" tasting drink. Imagine if coconut water and your favorite sports drink had a baby.
                     </p>
-                    <a href="/drink" className="btn btn-default slideAction">You Are Crazy</a>
-                    <a href="/drink" className="btn btn-primary slideAction pull-right">Brilliant, Buy Now</a>
+                    <a href="/drink" className="btn btn-default slideAction">You Crazy</a>
+                    <a href="/drink" className="btn btn-primary slideAction pull-right">Genius, Buy Now</a>
                   </div>
                 </div>
               </div>

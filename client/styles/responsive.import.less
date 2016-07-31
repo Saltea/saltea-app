@@ -25,12 +25,23 @@
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
-  #contentContainer img.flavorImg {
-    margin-top: 0;
-  }
+}
 
-  #contentContainer img.flavorImg:first-child {
-    margin-top: -140px;
+// The right iPhone 6
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+  #heroContainer {
+    height: calc(100% - 42px);
+  }
+  #contentContainer div.col-sm-4.flavorImg {
+    margin-top: 0px;
+  }
+  .slideInfo {
+    & h1.slideTitle {
+      font-family: 28px;
+    }
   }
 }
 

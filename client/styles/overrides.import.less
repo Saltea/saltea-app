@@ -126,8 +126,8 @@ a:hover, a:active {color: black}
 .btn {border: 0; .font2; font-style: normal; .font1;}
 
 .btn:focus {outline:none;}
-.btn-default {background: fade(@grey, 88%); color: @black;}
-.btn-default:hover, .btn-default:active {background: @grey;}
+.btn-default {background: fade(lighten(@brand, 20%), 88%); color: @black;}
+.btn-default:hover, .btn-default:active, .btn-default:visited {background: lighten(@brand, 20%);}
 .btn-primary {
   background: fade(@brand, 88%);
   &:hover {background: @brand}
