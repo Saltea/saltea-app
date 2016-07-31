@@ -131,21 +131,21 @@ Home = React.createClass({
                 <img src="img/caribbean.gif" title="The Caribbean Sea" alt="The Caribbean Sea"></img>
                 <h1>Caribbean Sea</h1>
                 <p>
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                  "Fresh strawberries, dried rose petals, hibiscus tea, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar."
                 </p>
               </div>
               <div className="col-sm-4 flavorImg">
-                <img src="img/rio-grande.gif" title="The Caribbean Sea" alt="The Caribbean Sea"></img>
+                <img src="img/rio-grande.gif" title="The Rio Grande" alt="The Rio Grande"></img>
                 <h1>Rio Grande</h1>
                 <p>
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                  "Fresh lemons, fresh mint, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar."
                 </p>
               </div>
               <div className="col-sm-4 flavorImg">
-                <img src="img/finger-lakes.gif" title="The Caribbean Sea" alt="The Caribbean Sea"></img>
+                <img src="img/finger-lakes.gif" title="The Finger Lakes" alt="The Finger Lakes"></img>
                 <h1>Finger Lakes</h1>
                 <p>
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                  "Fresh green apples, fresh rosemary, jasmine green tea, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar."
                 </p>
               </div>
             </div>
