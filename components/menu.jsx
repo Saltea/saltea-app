@@ -13,10 +13,11 @@ MainMenu = React.createClass({
           <a href="/" title="Kitten Agency"><div id="anicat"></div></a>
         </div>
 
-        <a id="home" className="menu-item" href={this._flowLink("about")}>Our Story</a>
-        <a id="about" className="menu-item" href={this._flowLink("browse")}>The Kittens</a>
-        <a id="contact" className="menu-item" href={this._flowLink("partners")}>Partners</a>
-        <a id="apply" className="menu-item" href={this._flowLink("apply")}>Apply to Kitten</a>
+        <a id="what" className="menu-item" href={this._flowLink("what")}>What Salt?</a>
+        <a id="about" className="menu-item" href={this._flowLink("why")}>Why Salt?</a>
+        <a id="history" className="menu-item" href={this._flowLink("history")}>The History</a>
+        <a id="about" className="menu-item" href={this._flowLink("where")}>Where Can I Buy It?</a>
+        <a id="seller" className="menu-item" href={this._flowLink("seller")}>Become A Seller</a>
 
         <hr></hr>
 
@@ -37,7 +38,6 @@ MainMenu = React.createClass({
 
         <div id="menuOptions" className="visible-xs">
           <ul className="list-inline">
-            <li><a className="btn btn-primary menuSignup" href={this._flowLink("apply")}>Apply</a></li>
             <li><a className="btn btn-default menuLogin" href={this._flowLink("login")}>Login</a></li>
           </ul>
         </div>
