@@ -157,8 +157,29 @@ Home = React.createClass({
               </div>
             </div>
           </div>
+
+          <div id="contentContainer" className="col-sm-12">
+            <div className="container-fluid">
+              <div className="col-sm-6">
+                <img src="" alt="" />
+              </div>
+              <div className="col-sm-6">
+                <h1 className="text-center">Heading</h1>
+                <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique elit justo, vitae mattis nisl eleifend viverra. Morbi nec ultricies lacus. Vestibulum imperdiet gravida massa vitae posuere. In ut lectus massa. Nullam consequat tellus nec lacus porta vestibulum. Pellentesque non ullamcorper odio, sit amet ultrices tortor. Praesent varius faucibus tellus, a congue leo congue sit amet.
+                  Fusce id elit eget orci egestas lobortis. Fusce aliquam vehicula magna, eget ultrices lorem
+                  condimentum a. Donec vel risus rutrum, scelerisque quam eget, porta metus. Etiam vestibulum rhoncus
+                  accumsan. Maecenas varius suscipit tristique. Nulla sollicitudin commodo dolor in eleifend.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
+        <div>
+          <Footer />
+        </div>
+        
       </div>
     );
   }
