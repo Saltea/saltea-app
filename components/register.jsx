@@ -16,6 +16,7 @@ Register = React.createClass({
     }
     email = trimInput(email);
 
+    // Compare passwords
     function compare(v1, v2) {
       if (v1 == v2) {
         return v1;
@@ -24,6 +25,7 @@ Register = React.createClass({
       }
     }
 
+    // Checks if any form fields are empty
     function validateForm(a,b,c,d,e,f) {
       if (a==null || a=="" ||
           b==null || b=="" ||
@@ -58,7 +60,7 @@ Register = React.createClass({
       str = str.replace(new RegExp(find, 'g'), replace);
       return str.replace(new RegExp(find2, 'g'), replace);
     }
-
+    
     if (!validateForm(first,last,username,email,password,passwordAgain)){
       console.log(error);
     } else if (!isValidPassword(password,passwordAgain)) {
@@ -79,77 +81,6 @@ Register = React.createClass({
         }
       });
     }
-
-    // Meteor.call("sendEmail",
-    //   "aaron@kittenagency.com",
-    //   first + " " + last + "<" + email + ">",
-    //   "New registration for " + first + " " + last,
-    //   "Looks like somebody signed up on the Kitten Site",
-    //   "Looks like somebody signed up on the Kitten Site",
-    //   function(error, response) {
-    //     if (!validateForm(first,last,username,email,password,passwordAgain)) {
-    //       console.log(error);
-    //     } else if (!isValidPassword(password, passwordAgain)) {
-    //       console.log(error);
-    //     } else {
-    //       console.log("success!");
-    //       Accounts.createUser({
-    //         username: username,
-    //         email: email,
-    //         // password: Accounts._hashPassword(compare(password, passwordAgain)),
-    //         password: compare(password, passwordAgain),
-    //         createdAt: new Date(),
-    //
-    //         profile: {
-    //           firstName: first,
-    //           lastName: last,
-    //           slug: makeSlug(first, last),
-    //
-    //           kitten: false
-    //         }
-    //       }, function(err) {
-    //         if (err) {
-    //           console.log(err);
-    //
-    //           return sweetAlert({
-    //              title: "Hold up!",
-    //              text: cleanError(err, "Error", "403", ""),
-    //              showConfirmButton: true,
-    //              type: "error"
-    //           });
-    //         } else {
-    //           Meteor.call('sendVerificationLink', function(error) {
-    //             if (error) {
-    //               console.log(error);
-    //               return sweetAlert({
-    //                  title: "Hold up!",
-    //                  text: "Your email didn't work, wanna try again?",
-    //                  showConfirmButton: true,
-    //                  type: "error"
-    //               }, function() {
-    //                 FlowRouter.go('/register');
-    //               });
-    //             } else {
-    //               return sweetAlert({
-    //                  title: "Thank you!",
-    //                  text: "Please check your email.",
-    //                  showConfirmButton: true,
-    //                  type: "info"
-    //               }, function() {
-    //                 FlowRouter.go('/');
-    //               });
-    //             }
-    //           });
-    //         }
-    //        });
-    //     }
-    //   }
-    // );
-
-    // Clear form
-    // ReactDOM.findDOMNode(this.refs.firstName).value = "";
-    // ReactDOM.findDOMNode(this.refs.lastInput).value = "";
-    // ReactDOM.findDOMNode(this.refs.emailInput).value = "";
   },
 
   render() {

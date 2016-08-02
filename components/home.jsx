@@ -99,7 +99,10 @@ Home = React.createClass({
             <div id="slider">
               <div id="featuredSlider" className="owl-carousel">
                 <div className="slide col-sm-8 col-sm-offset-2">
-                  <div className="slideInfo">
+                  <div className="slideImage col-md-6">
+                    <h1>Place image tag here</h1>
+                  </div>
+                  <div className="slideInfo col-md-6">
                     <h1 className="slideTitle">You Have Never Tasted Anything Like It</h1>
                     <p className="slideDesc">
                       But you'll be wondering why it wasn't there all along.
@@ -109,7 +112,10 @@ Home = React.createClass({
                   </div>
                 </div>
                 <div className="slide col-sm-8 col-sm-offset-2">
-                  <div className="slideInfo">
+                  <div className="slideImage col-md-6">
+                    <h1>Place image tag here</h1>
+                  </div>
+                  <div className="slideInfo col-md-6">
                     <h1 className="slideTitle">A New Class of Tea</h1>
                     <p className="slideDesc">Its like an all natural organic healthier (and tastier) version of that orange drink with the lightning bolt.</p>
                     <a href="/drink" className="btn btn-default slideAction">Still Clueless</a>
@@ -117,7 +123,10 @@ Home = React.createClass({
                   </div>
                 </div>
                 <div className="slide col-sm-8 col-sm-offset-2">
-                  <div className="slideInfo">
+                  <div className="slideImage col-md-6">
+                    <h1>Place image tag here</h1>
+                  </div>
+                  <div className="slideInfo col-md-6">
                     <h1 className="slideTitle">Total Balance 4 Tongues + Bodies</h1>
                     <p className="slideDesc">
                       Some would say its the "roundest" tasting drink. Imagine if coconut water and your favorite sports drink had a baby.
