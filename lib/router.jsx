@@ -46,6 +46,17 @@ FlowRouter.route('/login', {
     name: "Login"
 });
 
+FlowRouter.route('/register', {
+    action: function() {
+      ReactLayout.render(App, {
+        title: "Register",
+        hash: 'maintainScroll=1',
+        content: <RegisterWrapper key={RegisterWrapper} />
+      });
+    },
+    name: "Register"
+});
+
 FlowRouter.triggers.enter( [ enterFunction ] );
 // FlowRouter.triggers.exit( [ exitFunction ] );
 

@@ -1,7 +1,50 @@
 MainMenu = React.createClass({
 
+  // getMeteorData() {
+  //   let user = Meteor.user();
+  //
+  //   var data = {
+  //     authInProcess: Meteor.loggingIn(),
+  //     isUser: Roles.userIsInRole(user, ['user']),
+  //     isAdmin: Roles.userIsInRole(user, ['admin']),
+  //   };
+  //
+  //   return data;
+  // },
+
   _flowLink(link) {
     return FlowRouter.path("/" + link, {});
+  },
+
+  // Logout user
+  _menuLogoutButton () {
+    Meteor.logout();
+    return FlowRouter.go("/");
+  },
+
+  // Mobile menu login/logout button visibility
+  _mobileMenuButton(){
+    let loggedInUser = Meteor.user();
+
+    if (!loggedInUser) {
+      return (
+        <div id="menuOptions" className="visible-xs">
+          <ul className="list-inline">
+            <li><a className="btn btn-default menuLogin" href={this._flowLink("login")}>Login</a></li>
+            <li><a className="btn btn-default menuLogin" href={this._flowLink("register")}>Sign up</a></li>
+          </ul>
+        </div>
+        );
+    }
+    else {
+      return (
+        <div id="menuOptions" className="visible-xs">
+          <ul className="list-inline">
+            <li><a className="btn btn-default menuLogin" onClick={this._menuLogoutButton}>Logout</a></li>
+          </ul>
+        </div>
+      );
+    }
   },
 
   render() {
@@ -36,11 +79,7 @@ MainMenu = React.createClass({
           </ul>
         </div>
 
-        <div id="menuOptions" className="visible-xs">
-          <ul className="list-inline">
-            <li><a className="btn btn-default menuLogin" href={this._flowLink("login")}>Login</a></li>
-          </ul>
-        </div>
+        {this._mobileMenuButton()}
 
         {/*<a onClick={this.showSettings} className="menu-item--small" href="">Settings</a>*/}
 

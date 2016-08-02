@@ -42,7 +42,8 @@ Footer = React.createClass({
 
           <div className="copyright row-fluid">
             <div className="col-xs-12">
-              <p className="text-center">&copy; {year} Saltea All Rights Reserved</p>
+              <br></br>
+              <p className="text-center">&copy; {year} Saltea. All Rights Reserved</p>
             </div>
           </div>
 
