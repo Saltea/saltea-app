@@ -25,6 +25,9 @@
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
+  #heroContainer {
+    height: 100%; // Shows the full slider on really small devices
+  }
 }
 
 // The right iPhone 6
@@ -61,7 +64,7 @@ and (orientation : portrait) {
   }
 
   #contentContainer .flavorImg:first-child {
-    margin-top: -140px;
+    //margin-top: -140px;
   }
 }
 
@@ -72,7 +75,7 @@ and (orientation : portrait) {
   }
 
   #contentContainer .flavorImg {
-    margin-top: -140px;
+    //margin-top: -140px;
   }
 }
 
@@ -89,6 +92,13 @@ and (orientation : portrait) {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #heroContainer {
+    height: 100%; // Shows full slider on small mobile devices
+  }
+  .slideAction { // Stacks buttons and makes them full width (Temporary)
+    display: block;
+    float: none !important;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
