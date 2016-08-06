@@ -140,8 +140,8 @@ Home = React.createClass({
           </div>
         </div>
 
-        <div className="container">
-          <div id="contentContainer" className="col-sm-12">
+        <div id="contentContainer" className="container">
+          <div id="featuredFlavors" className="contentBlock col-sm-12">
             <div className="container-fluid">
               <div className="col-sm-4 flavorImg">
                 <img src="img/caribbean.gif" title="The Caribbean Sea" alt="The Caribbean Sea"></img>
@@ -167,7 +167,7 @@ Home = React.createClass({
             </div>
           </div>
 
-          <div id="contentContainer" className="col-sm-12">
+          <div className="contentBlock col-sm-12">
             <div className="container-fluid">
               <div className="col-sm-6">
                 <img src="" alt="" />
@@ -183,11 +183,9 @@ Home = React.createClass({
             </div>
           </div>
 
-          <div>
-            <Footer />
-          </div>
-
         </div>
+
+        <Footer />
 
       </div>
     );
