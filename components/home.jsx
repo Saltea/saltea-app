@@ -98,14 +98,14 @@ Home = React.createClass({
             {this.loadBackground()}
             <div id="slider">
               <div id="featuredSlider" className="owl-carousel">
-                <div className="slide col-sm-8 col-sm-offset-2">
-                  <div className="slideImage col-md-6">
-                    <h1>Place image tag here</h1>
+                <div className="slide col-sm-8 col-sm-offset-2 noPadding">
+                  <div className="slideImage col-md-6 noPadding">
+                    <img src="/img/globe-rio-grande.gif"></img>
                   </div>
                   <div className="slideInfo col-md-6">
                     <h1 className="slideTitle">You Have Never Tasted Anything Like It</h1>
                     <p className="slideDesc">
-                      But you'll be wondering why it wasn't there all along.
+                      But you'll be wondering why it wasn't there all along, when really it was. Its just never quite been this good.
                     </p>
                     <a href="/drink" className="btn btn-default slideAction">Wait, what?</a>
                     <a href="/drink" className="btn btn-primary slideAction pull-right">OMG, I get it.</a>
@@ -173,11 +173,13 @@ Home = React.createClass({
                 <img src="" alt="" />
               </div>
               <div className="col-sm-6">
-                <h1 className="text-center">Heading</h1>
-                <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique elit justo, vitae mattis nisl eleifend viverra. Morbi nec ultricies lacus. Vestibulum imperdiet gravida massa vitae posuere. In ut lectus massa. Nullam consequat tellus nec lacus porta vestibulum. Pellentesque non ullamcorper odio, sit amet ultrices tortor. Praesent varius faucibus tellus, a congue leo congue sit amet.
-                  Fusce id elit eget orci egestas lobortis. Fusce aliquam vehicula magna, eget ultrices lorem
-                  condimentum a. Donec vel risus rutrum, scelerisque quam eget, porta metus. Etiam vestibulum rhoncus
-                  accumsan. Maecenas varius suscipit tristique. Nulla sollicitudin commodo dolor in eleifend.
+                <h1>But Is It Healthy?</h1>
+                <p>
+                  The truth is, adding unrefined natural crystal salt to water is extremely good for your body. The combination turns into a healing formula that helps balance blood sugar, keep bones strong, regulates metabolism, boosts the immune system, and more.
+                </p>
+                <h1>Why So Salty?</h1>
+                <p>
+                  Since the beginning of recorded history, people have been adding salt to drinks. The Tibetans have been making salted tea called cha süma (butter tea) since the 10th century. The Mongolians have a traditional drink called suutei tsai, which has milk and salt in it. 
                 </p>
               </div>
             </div>

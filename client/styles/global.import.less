@@ -5,7 +5,15 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  text-shadow: 0 0 0;
   .font1;
+}
+
+h1 {
+  letter-spacing: 0px;
+  line-height: 0.91em;
+  text-shadow: 1px 1px 0 fade(@brand, 25%);
 }
 
 a:active, a:focus {
@@ -123,7 +131,12 @@ hr {border-color: @brand; border-style: dotted}
   color: @white;
 }
 
-.bm-menu ul#menuSub {
+.bm-menu #menuMain {
+  font-style: normal;
+  .font1;
+}
+
+.bm-menu #menuSub {
   .font2;
   font-style: normal;
   font-size: 1em;
@@ -166,6 +179,7 @@ nav.nav a.logo {
   margin-left: -53px;
   margin-top: 10px;
   z-index: 2;
+  .transition;
   & span {
     .font2;
     font-size: 22px;
@@ -174,7 +188,7 @@ nav.nav a.logo {
   }
   &:hover, :active, :focus {
     text-decoration: none;
-    background: @accent;
+    background: @brand;
   }
 }
 
