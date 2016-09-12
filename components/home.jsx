@@ -100,7 +100,7 @@ Home = React.createClass({
               <div id="featuredSlider" className="owl-carousel">
                 <div className="slide col-sm-8 col-sm-offset-2 noPadding">
                   <div className="slideImage col-md-6 noPadding">
-                    <img src="/img/globe-rio-grande.gif"></img>
+                    <img src="http://res.cloudinary.com/saltea/image/upload/dpr_1.0,f_auto,fl_lossy.progressive,q_70/v1473645494/saltea.co/globe-caribbean-sea.gif"></img>
                   </div>
                   <div className="slideInfo col-md-6">
                     <h1 className="slideTitle">You Have Never Tasted Anything Like It</h1>
@@ -113,7 +113,7 @@ Home = React.createClass({
                 </div>
                 <div className="slide col-sm-8 col-sm-offset-2 noPadding">
                   <div className="slideImage col-md-6 noPadding">
-                    <img src="/img/globe-caribbean-sea.gif"></img>
+                    <img src="http://res.cloudinary.com/saltea/image/upload/dpr_1.0,f_auto,fl_lossy.progressive,q_70/v1473645493/saltea.co/globe-rio-grande.gif"></img>
                   </div>
                   <div className="slideInfo col-md-6">
                     <h1 className="slideTitle">A New Class of Tea</h1>
@@ -122,9 +122,9 @@ Home = React.createClass({
                     <a href="/drink" className="btn btn-primary slideAction pull-right">Find A Store</a>
                   </div>
                 </div>
-                <div className="slide col-sm-8 col-sm-offset-2">
-                  <div className="slideImage col-md-6">
-                    <h1>Place image tag here</h1>
+                <div className="slide col-sm-8 col-sm-offset-2 noPadding">
+                  <div className="slideImage col-md-6 noPadding">
+                    <img src="http://res.cloudinary.com/saltea/image/upload/dpr_1.0,f_auto,fl_lossy.progressive,q_70/v1473647398/saltea.co/globe-finger-lakes.gif"></img>
                   </div>
                   <div className="slideInfo col-md-6">
                     <h1 className="slideTitle">Total Balance 4 Tongues + Bodies</h1>
@@ -144,21 +144,21 @@ Home = React.createClass({
           <div id="featuredFlavors" className="contentBlock col-sm-12">
             <div className="container-fluid">
               <div className="col-sm-4 flavorImg">
-                <img src="img/caribbean.gif" title="The Caribbean Sea" alt="The Caribbean Sea"></img>
+                <img src="http://res.cloudinary.com/saltea/image/upload/c_scale,dpr_1.0,f_auto,fl_lossy.progressive,q_70,w_800/v1473645492/saltea.co/caribbean-sea.gif" title="The Caribbean Sea" alt="The Caribbean Sea"></img>
                 <h1>The Caribbean Sea</h1>
                 <p>
                   Fresh strawberries, dried rose petals, hibiscus tea, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar.
                 </p>
               </div>
               <div className="col-sm-4 flavorImg">
-                <img src="img/rio-grande.gif" title="The Rio Grande" alt="The Rio Grande"></img>
+                <img src="http://res.cloudinary.com/saltea/image/upload/c_scale,dpr_1.0,f_auto,fl_lossy.progressive,q_70,w_800/v1473645492/saltea.co/rio-grande.gif" title="The Rio Grande" alt="The Rio Grande"></img>
                 <h1>The Rio Grande</h1>
                 <p>
                   Fresh lemons, fresh mint, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar.
                 </p>
               </div>
               <div className="col-sm-4 flavorImg">
-                <img src="img/finger-lakes.gif" title="The Finger Lakes" alt="The Finger Lakes"></img>
+                <img src="http://res.cloudinary.com/saltea/image/upload/c_scale,dpr_1.0,f_auto,fl_lossy.progressive,q_70,w_800/v1473645492/saltea.co/finger-lakes.gif" title="The Finger Lakes" alt="The Finger Lakes"></img>
                 <h1>The Finger Lakes</h1>
                 <p>
                   Fresh green apples, fresh rosemary, jasmine green tea, a touch of pure himalayan crystal sea salt, and a touch of pure cane sugar.

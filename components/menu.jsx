@@ -57,19 +57,23 @@ MainMenu = React.createClass({
         </div>
 
         <div id="menuMain">
-          <a id="what" className="menu-item" href={this._flowLink("what")}>What Salt?</a>
-          <a id="about" className="menu-item" href={this._flowLink("why")}>Why Salt?</a>
-          <a id="history" className="menu-item" href={this._flowLink("history")}>The History</a>
-          <a id="about" className="menu-item" href={this._flowLink("where")}>Where Can I Buy It?</a>
-          <a id="seller" className="menu-item" href={this._flowLink("seller")}>Become A Seller</a>
+          <ul>
+            <li><a id="what" className="menu-item" href={this._flowLink("what")}>What Salt?</a></li>
+            <li><a id="about" className="menu-item" href={this._flowLink("why")}>Why Salt?</a></li>
+            <li><a id="history" className="menu-item" href={this._flowLink("history")}>The History</a></li>
+            <li><a id="about" className="menu-item" href={this._flowLink("where")}>Where Can I Buy It?</a></li>
+            <li><a id="seller" className="menu-item" href={this._flowLink("seller")}>Become A Seller</a></li>
+          </ul>
         </div>
 
         <hr></hr>
 
         <div id="menuSub">
-          <a id="home" className="menu-item-mini" href={this._flowLink("contact")}>Contact</a>
-          <a id="about" className="menu-item-mini" href="//galoremag.com/dmca">Legal</a>
-          <a id="contact" className="menu-item-mini" href={this._flowLink("contact")}>Feedback</a>
+          <ul>
+            <li><a id="home" className="menu-item-mini" href={this._flowLink("contact")}>Contact</a></li>
+            <li><a id="about" className="menu-item-mini" href="//galoremag.com/dmca">Legal</a></li>
+            <li><a id="contact" className="menu-item-mini" href={this._flowLink("contact")}>Feedback</a></li>
+          </ul>
         </div>
 
         <div id="menuFollow">
