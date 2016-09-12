@@ -113,7 +113,7 @@ Home = React.createClass({
                 </div>
                 <div className="slide col-sm-8 col-sm-offset-2">
                   <div className="slideImage col-md-6">
-                    <h1>Place image tag here</h1>
+                    <img src="/img/globe-caribbean-sea.gif"></img>
                   </div>
                   <div className="slideInfo col-md-6">
                     <h1 className="slideTitle">A New Class of Tea</h1>
@@ -179,7 +179,7 @@ Home = React.createClass({
                 </p>
                 <h1>Why So Salty?</h1>
                 <p>
-                  Since the beginning of recorded history, people have been adding salt to drinks. The Tibetans have been making salted tea called cha süma (butter tea) since the 10th century. The Mongolians have a traditional drink called suutei tsai, which has milk and salt in it. 
+                  Since the beginning of recorded history, people have been adding salt to drinks. The Tibetans have been making salted tea called cha süma (butter tea) since the 10th century. The Mongolians have a traditional drink called suutei tsai, which has milk and salt in it.
                 </p>
               </div>
             </div>
