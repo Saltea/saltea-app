@@ -111,8 +111,8 @@ Home = React.createClass({
                     <a href="/drink" className="btn btn-primary slideAction pull-right">OMG, I get it.</a>
                   </div>
                 </div>
-                <div className="slide col-sm-8 col-sm-offset-2">
-                  <div className="slideImage col-md-6">
+                <div className="slide col-sm-8 col-sm-offset-2 noPadding">
+                  <div className="slideImage col-md-6 noPadding">
                     <img src="/img/globe-caribbean-sea.gif"></img>
                   </div>
                   <div className="slideInfo col-md-6">
