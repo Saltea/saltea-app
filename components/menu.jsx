@@ -58,11 +58,11 @@ MainMenu = React.createClass({
 
         <div id="menuMain">
           <ul>
-            <li><a id="what" className="menu-item" href={this._flowLink("what")}>What Salt?</a></li>
-            <li><a id="about" className="menu-item" href={this._flowLink("why")}>Why Salt?</a></li>
-            <li><a id="history" className="menu-item" href={this._flowLink("history")}>The History</a></li>
-            <li><a id="about" className="menu-item" href={this._flowLink("where")}>Where Can I Buy It?</a></li>
-            <li><a id="seller" className="menu-item" href={this._flowLink("seller")}>Become A Seller</a></li>
+            <li><a id="what" className="menu-item" href={this._flowLink("what-is-this")}>What Salt?</a></li>
+            <li><a id="about" className="menu-item" href={this._flowLink("why-salt")}>Why Salt?</a></li>
+            <li><a id="history" className="menu-item" href={this._flowLink("the-history")}>The History</a></li>
+            <li><a id="about" className="menu-item" href={this._flowLink("where-to-buy")}>Where Can I Buy It?</a></li>
+            <li><a id="seller" className="menu-item" href={this._flowLink("sellers")}>Become A Seller</a></li>
           </ul>
         </div>
 

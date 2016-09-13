@@ -35,6 +35,69 @@ FlowRouter.route('/', {
   name: 'home'
 });
 
+FlowRouter.route('/what-is-this', {
+  action: function() {
+    ReactLayout.render(App, {
+      content: <WhatWrapper key={1} />
+    });
+  },
+  name: 'what'
+});
+
+FlowRouter.route('/why-salt', {
+  action: function() {
+    ReactLayout.render(App, {
+      content: <WhatWrapper key={1} />
+    });
+  },
+  name: 'why'
+});
+
+FlowRouter.route('/the-history', {
+  action: function() {
+    ReactLayout.render(App, {
+      content: <WhatWrapper key={1} />
+    });
+  },
+  name: 'history'
+});
+
+FlowRouter.route('/where-to-buy', {
+  action: function() {
+    ReactLayout.render(App, {
+      content: <WhatWrapper key={1} />
+    });
+  },
+  name: 'where'
+});
+
+FlowRouter.route('/sellers', {
+  action: function() {
+    ReactLayout.render(App, {
+      content: <WhatWrapper key={1} />
+    });
+  },
+  name: 'sellers'
+});
+
+FlowRouter.route('/contact', {
+  action: function() {
+    ReactLayout.render(App, {
+      content: <WhatWrapper key={1} />
+    });
+  },
+  name: 'contact'
+});
+
+FlowRouter.route('/legal', {
+  action: function() {
+    ReactLayout.render(App, {
+      content: <WhatWrapper key={1} />
+    });
+  },
+  name: 'legal'
+});
+
 FlowRouter.route('/login', {
     action: function() {
       ReactLayout.render(App, {

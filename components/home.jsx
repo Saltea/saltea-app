@@ -167,10 +167,10 @@ Home = React.createClass({
             </div>
           </div>
 
-          <div className="contentBlock col-sm-12">
-            <div className="container-fluid">
-              <div className="col-sm-6">
-                <img src="" alt="" />
+          <div className="contentBlock col-sm-12 noPadding">
+            <div className="container-fluid noPadding">
+              <div className="col-sm-6 noPadding">
+                <img src="http://res.cloudinary.com/saltea/image/upload/c_scale,dpr_1.0,f_auto,fl_lossy.progressive,q_70,w_800/v1473748307/saltea.co/caribbean-sea-close.jpg" alt="The Caribbean Sea" />
               </div>
               <div className="col-sm-6">
                 <h1>But Is It Healthy?</h1>
