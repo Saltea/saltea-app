@@ -20,7 +20,6 @@ Footer = React.createClass({
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a href="javascript:;" onClick={this.browse} title="Browse">Home</a></li>
                   <li><a href="javascript:;" onClick={this.browse} title="Browse">Why Salt?</a></li>
                   <li><a href="javascript:;" onClick={this.browse} title="Browse">The History</a></li>
                   <li><a href="javascript:;" onClick={this.browse} title="Browse">Where To Buy</a></li>
