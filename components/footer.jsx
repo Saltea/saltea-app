@@ -1,5 +1,9 @@
 Footer = React.createClass({
 
+  browse() {
+    return FlowRouter.go("/");
+  },
+
   render() {
 
     let year = new Date().getFullYear();
@@ -10,15 +14,16 @@ Footer = React.createClass({
 
         <div id="footerContainer" className="container-fluid">
 
-          <div id="footer" className="col-sm-12">
+          <div id="footer" className="col-sm-8 col-sm-offset-2">
 
             <div className="row-fluid">
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a href="javascript:;" onClick={this.browse} title="Browse">Browse</a></li>
-                  <li><a href="javascript:;" onClick={this.browse} title="Browse">Browse</a></li>
-                  <li><a href="javascript:;" onClick={this.browse} title="Browse">Browse</a></li>
+                  <li><a href="javascript:;" onClick={this.browse} title="Browse">Home</a></li>
+                  <li><a href="javascript:;" onClick={this.browse} title="Browse">Why Salt?</a></li>
+                  <li><a href="javascript:;" onClick={this.browse} title="Browse">The History</a></li>
+                  <li><a href="javascript:;" onClick={this.browse} title="Browse">Where To Buy</a></li>
                 </ul>
               </div>
 
@@ -26,9 +31,9 @@ Footer = React.createClass({
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a href="" title="About" target="_blank">About</a></li>
-                  <li><a href="" title="Legal" target="_blank">Test</a></li>
+                  <li><a href="" title="About" target="_blank">Contact</a></li>
                   <li><a href="" title="Legal" target="_blank">Legal</a></li>
+                  <li><a href="" title="Feedback" target="_blank">Feedback</a></li>
                 </ul>
               </div>
 
@@ -36,9 +41,9 @@ Footer = React.createClass({
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a href="" title="Facebook" target="_blank">Facebook</a></li>
-                  <li><a href="" title="Instagram" target="_blank">Instagram</a></li>
-                  <li><a href="" title="Twitter" target="_blank">Twitter</a></li>
+                  <li><a href="https://www.facebook.com/saltea.drinks" title="Facebook" target="_blank">Facebook</a></li>
+                  <li><a href="https://www.instagram.com/saltea.co/" title="Instagram" target="_blank">Instagram</a></li>
+                  <li><a href="https://twitter.com/drinksaltea" title="Twitter" target="_blank">Twitter</a></li>
                 </ul>
               </div>
 
