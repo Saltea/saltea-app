@@ -84,6 +84,10 @@ MainMenu = React.createClass({
           </ul>
         </div>
 
+        <div id="newsletterSignup">
+          <NewsletterSignup />
+        </div>
+
         {this._mobileMenuButton()}
 
         {/*<a onClick={this.showSettings} className="menu-item--small" href="">Settings</a>*/}

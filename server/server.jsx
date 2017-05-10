@@ -14,7 +14,9 @@ if (Meteor.isServer) {
   // Add super admin role to user account
   Roles.addUsersToRoles("P33iz8ghWX72GNXKt", ['super-admin','admin']);
 
-  BrowserPolicy.content.allowOriginForAll( '*.youtube.com' );
+  BrowserPolicy.content.allowOriginForAll( '*.list-manage.com' );
+  BrowserPolicy.content.allowOriginForAll( '*.amazonaws.com' );
+  BrowserPolicy.content.allowOriginForAll( '*.mailchimp.com' );
   BrowserPolicy.content.allowOriginForAll( '*.googleapis.com' );
   BrowserPolicy.content.allowOriginForAll( '*.google-analytics.com' );
   BrowserPolicy.content.allowOriginForAll( '*.gstatic.com' );
