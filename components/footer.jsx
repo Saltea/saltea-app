@@ -16,9 +16,11 @@ Footer = React.createClass({
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a href="javascript:;" onClick={this.browse} title="Browse">Browse</a></li>
-                  <li><a href="javascript:;" onClick={this.browse} title="Browse">Browse</a></li>
-                  <li><a href="javascript:;" onClick={this.browse} title="Browse">Browse</a></li>
+                  <li><a id="what" className="menu-item" href={this._flowLink("what-is-this")}>What Salt?</a></li>
+                  <li><a id="about" className="menu-item" href={this._flowLink("why-salt")}>Why Salt?</a></li>
+                  <li><a id="history" className="menu-item" href={this._flowLink("the-history")}>The History</a></li>
+                  <li><a id="about" className="menu-item" href={this._flowLink("where-to-buy")}>Where Can I Buy It?</a></li>
+                  <li><a id="seller" className="menu-item" href={this._flowLink("sellers")}>Become A Seller</a></li>
                 </ul>
               </div>
 
@@ -26,9 +28,9 @@ Footer = React.createClass({
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a href="" title="About" target="_blank">About</a></li>
-                  <li><a href="" title="Legal" target="_blank">Test</a></li>
-                  <li><a href="" title="Legal" target="_blank">Legal</a></li>
+                  <li><a href="/what-is-this" title="About">About</a></li>
+                  <li><a href="" title="Legal">Test</a></li>
+                  <li><a href="/legal" title="Legal">Legal</a></li>
                 </ul>
               </div>
 
@@ -36,9 +38,9 @@ Footer = React.createClass({
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a href="" title="Facebook" target="_blank">Facebook</a></li>
-                  <li><a href="" title="Instagram" target="_blank">Instagram</a></li>
-                  <li><a href="" title="Twitter" target="_blank">Twitter</a></li>
+                  <li><a href="" title="Facebook" target="_blank"><i className="fa fa-facebook"></i>&nbsp; Facebook</a></li>
+                  <li><a href="" title="Instagram" target="_blank"><i className="fa fa-instagram"></i>&nbsp; Instagram</a></li>
+                  <li><a href="" title="Twitter" target="_blank"><i className="fa fa-twitter"></i>&nbsp; Twitter</a></li>
                 </ul>
               </div>
 
