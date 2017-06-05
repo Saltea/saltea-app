@@ -141,7 +141,7 @@ Home = React.createClass({
         </div>
 
         <div id="contentContainer" className="container">
-          <div id="featuredFlavors" className="contentBlock col-sm-12">
+          <div id="featuredFlavors" className="contentBlock col-sm-12 outset">
             <div className="container-fluid">
               <div className="col-sm-4 flavorImg">
                 <img src="http://res.cloudinary.com/saltea/image/upload/c_scale,dpr_1.0,f_auto,fl_lossy.progressive,q_70,w_800/v1473645492/saltea.co/caribbean-sea.gif" title="The Caribbean Sea" alt="The Caribbean Sea"></img>
@@ -167,19 +167,25 @@ Home = React.createClass({
             </div>
           </div>
 
-          <div className="contentBlock col-sm-12 noPadding">
+          <div className="contentBlock col-sm-12 noPadding outset">
             <div className="container-fluid noPadding">
               <div className="col-sm-6 noPadding">
-                <img src="http://res.cloudinary.com/saltea/image/upload/c_scale,dpr_1.0,f_auto,fl_lossy.progressive,q_70,w_800/v1473748307/saltea.co/caribbean-sea-close.jpg" alt="The Caribbean Sea" />
+                <img src="http://res.cloudinary.com/saltea/image/upload/c_crop,f_auto,fl_lossy.progressive,h_662,q_70,w_575/v1496612697/mint_lemon_scene.jpg" alt="Mint & Lemon" />
               </div>
               <div className="col-sm-6">
                 <h1>But Is It Healthy?</h1>
                 <p>
                   The truth is, adding unrefined natural crystal salt to water is extremely good for your body. The combination turns into a healing formula that helps balance blood sugar, keep bones strong, regulates metabolism, boosts the immune system, and more.
                 </p>
+                <p>
+                  The crystalline structure of salt is of primary importance in the cellular uptake and movement of water and if the structure of the water and salt available to the cell is not appropriate, then life energy and its information cannot be effectively communicated.<sup><a href="http://www.positivehealth.com/review/water-salt-the-essence-of-life" target="_blank" title="">[1]</a></sup>
+                </p>
                 <h1>Why So Salty?</h1>
                 <p>
-                  Since the beginning of recorded history, people have been adding salt to drinks. The Tibetans have been making salted tea called cha süma (butter tea) since the 10th century. The Mongolians have a traditional drink called suutei tsai, which has milk and salt in it.
+                  Since the beginning of recorded history, people have been adding salt to drinks. The Tibetans have been making salted tea called cha süma (butter tea) since the 10th century. The Mongolians have a traditional drink called suutei tsai, which has milk and salt in it.<sup><a href="http://www.nytimes.com/2002/02/24/books/nacl.html" target="_blank" title="">[2]</a></sup> Turns out, many people in many cultures understand the benefits of drinking salty bevs, for both health reasons and those of flavor.
+                </p>
+                <p>
+                  But the best part, is that adding a little bit of pure natural crystal salt to tea or juice tastes really good. So we decided to start a movement. Ok the good bartenders salting the rims of margaritas started the movement, you we are taking things a step further...
                 </p>
               </div>
             </div>

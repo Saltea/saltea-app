@@ -92,7 +92,7 @@ FlowRouter.route('/contact', {
 FlowRouter.route('/legal', {
   action: function() {
     ReactLayout.render(App, {
-      content: <WhatWrapper key={1} />
+      content: <LegalWrapper key={1} />
     });
   },
   name: 'legal'

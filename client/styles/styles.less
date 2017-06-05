@@ -29,7 +29,7 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  box-shadow: inset 0 0 40px rgba(0,0,0,0.123);
+  .inset;
   background: fade(white, 77%);
   // opacity: 0.1;
   // background: linear-gradient(143deg, #61e7c5, #e76161, #61b9e7);
@@ -139,7 +139,8 @@
   margin-top: -140px;
 }
 
-.footer {
+#footer {
+  padding: 20px;
   background: darken(@brand, 33%);
   color: white;
   & a {
