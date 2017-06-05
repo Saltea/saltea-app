@@ -58,11 +58,10 @@ MainMenu = React.createClass({
 
         <div id="menuMain">
           <ul>
-            <li><a id="what" className="menu-item" href={this._flowLink("what-is-this")}>What Salt?</a></li>
-            <li><a id="about" className="menu-item" href={this._flowLink("why-salt")}>Why Salt?</a></li>
-            <li><a id="history" className="menu-item" href={this._flowLink("the-history")}>The History</a></li>
-            <li><a id="about" className="menu-item" href={this._flowLink("where-to-buy")}>Where Can I Buy It?</a></li>
-            <li><a id="seller" className="menu-item" href={this._flowLink("sellers")}>Become A Seller</a></li>
+            <li><a id="about" className="menu-item" href={this._flowLink("")}>Why Salt?</a></li>
+            <li><a id="history" className="menu-item" href={this._flowLink("")}>The History</a></li>
+            <li><a id="about" className="menu-item" href={this._flowLink("")}>Where Can I Buy It?</a></li>
+            <li><a id="seller" className="menu-item" href={this._flowLink("")}>Become A Seller</a></li>
           </ul>
         </div>
 
@@ -70,19 +69,23 @@ MainMenu = React.createClass({
 
         <div id="menuSub">
           <ul>
-            <li><a id="home" className="menu-item-mini" href={this._flowLink("contact")}>Contact</a></li>
+            <li><a id="home" className="menu-item-mini" href={this._flowLink("")}>Contact</a></li>
             <li><a id="about" className="menu-item-mini" href="//galoremag.com/dmca">Legal</a></li>
-            <li><a id="contact" className="menu-item-mini" href={this._flowLink("contact")}>Feedback</a></li>
+            <li><a id="contact" className="menu-item-mini" href={this._flowLink("")}>Feedback</a></li>
           </ul>
         </div>
 
         <div id="menuFollow">
           <p>Follow Saltea</p>
           <ul className="list-inline">
-            <li><a className="share-facebook" href="https://facebook.com/galore"><i className="fa fa-facebook fa-2x"></i></a></li>
-            <li><a className="share-facebook" href="https://instagram.com/galore"><i className="fa fa-instagram fa-2x"></i></a></li>
-            <li><a className="share-twitter" href="https://twitter.com/thegaloremag"><i className="fa fa-twitter fa-2x"></i></a></li>
+            <li><a className="share-facebook" href="https://facebook.com/saltea.drinks"><i className="fa fa-facebook fa-2x"></i></a></li>
+            <li><a className="share-facebook" href="https://instagram.com/saltea.co"><i className="fa fa-instagram fa-2x"></i></a></li>
+            <li><a className="share-twitter" href="https://twitter.com/drinksaltea"><i className="fa fa-twitter fa-2x"></i></a></li>
           </ul>
+        </div>
+
+        <div id="newsletterSignup">
+          <NewsletterSignup />
         </div>
 
         {this._mobileMenuButton()}

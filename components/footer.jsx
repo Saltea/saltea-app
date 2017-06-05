@@ -1,5 +1,9 @@
 Footer = React.createClass({
 
+  _flowLink() {
+    return FlowRouter.go("/");
+  },
+
   render() {
 
     let year = new Date().getFullYear();
@@ -10,17 +14,17 @@ Footer = React.createClass({
 
         <div id="footerContainer" className="container-fluid">
 
-          <div id="footer" className="col-sm-12">
+          <div id="footer" className="col-sm-8 col-sm-offset-2">
 
             <div className="row-fluid">
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a id="what" className="menu-item" href={this._flowLink("what-is-this")}>What Salt?</a></li>
-                  <li><a id="about" className="menu-item" href={this._flowLink("why-salt")}>Why Salt?</a></li>
-                  <li><a id="history" className="menu-item" href={this._flowLink("the-history")}>The History</a></li>
-                  <li><a id="about" className="menu-item" href={this._flowLink("where-to-buy")}>Where Can I Buy It?</a></li>
-                  <li><a id="seller" className="menu-item" href={this._flowLink("sellers")}>Become A Seller</a></li>
+                  <li><a id="what" href={this._flowLink("what-is-this")}>What Salt?</a></li>
+                  <li><a id="about" href={this._flowLink("why-salt")}>Why Salt?</a></li>
+                  <li><a id="history" href={this._flowLink("the-history")}>The History</a></li>
+                  <li><a id="about" href={this._flowLink("where-to-buy")}>Where Can I Buy It?</a></li>
+                  <li><a id="seller" href={this._flowLink("sellers")}>Become A Seller</a></li>
                 </ul>
               </div>
 
@@ -28,9 +32,9 @@ Footer = React.createClass({
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a href="/what-is-this" title="About">About</a></li>
-                  <li><a href="" title="Legal">Test</a></li>
+                  <li><a href="/contact" title="About">Contact</a></li>
                   <li><a href="/legal" title="Legal">Legal</a></li>
+                  <li><a href="/feedback" title="Feedback">Feedback</a></li>
                 </ul>
               </div>
 
@@ -38,9 +42,9 @@ Footer = React.createClass({
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a href="" title="Facebook" target="_blank"><i className="fa fa-facebook"></i>&nbsp; Facebook</a></li>
-                  <li><a href="" title="Instagram" target="_blank"><i className="fa fa-instagram"></i>&nbsp; Instagram</a></li>
-                  <li><a href="" title="Twitter" target="_blank"><i className="fa fa-twitter"></i>&nbsp; Twitter</a></li>
+                  <li><a href="https://www.facebook.com/saltea.drinks" title="Facebook" target="_blank"><i className="fa fa-facebook"></i>&nbsp; Facebook</a></li>
+                  <li><a href="https://www.instagram.com/saltea.co/" title="Instagram" target="_blank"><i className="fa fa-instagram"></i>&nbsp; Instagram</a></li>
+                  <li><a href="https://twitter.com/drinksaltea" title="Twitter" target="_blank"><i className="fa fa-twitter"></i>&nbsp; Twitter</a></li>
                 </ul>
               </div>
 
