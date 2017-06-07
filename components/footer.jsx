@@ -14,7 +14,7 @@ Footer = React.createClass({
 
         <div id="footerContainer" className="container-fluid">
 
-          <div id="footer" className="col-sm-8 col-sm-offset-2">
+          <div id="footer" className="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
 
             <div className="row-fluid">
 
@@ -32,9 +32,9 @@ Footer = React.createClass({
 
               <div className="col-sm-4">
                 <ul>
-                  <li><a href="/contact" title="About">Contact</a></li>
-                  <li><a href="/legal" title="Legal">Legal</a></li>
-                  <li><a href="/feedback" title="Feedback">Feedback</a></li>
+                  <li><a href={this._flowLink("contact")} title="About">Contact</a></li>
+                  <li><a href={this._flowLink("legal")} title="Legal">Legal</a></li>
+                  <li><a href={this._flowLink("feedback")} title="Feedback">Feedback</a></li>
                 </ul>
               </div>
 
