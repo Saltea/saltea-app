@@ -103,9 +103,9 @@ Home = React.createClass({
                     <img src="http://res.cloudinary.com/saltea/image/upload/dpr_1.0,f_auto,fl_lossy.progressive,q_70/v1473645494/saltea.co/globe-caribbean-sea.gif"></img>
                   </div>
                   <div className="slideInfo col-md-6">
-                    <h1 className="slideTitle">You Have Never Tasted Anything Like It</h1>
+                    <h1 className="slideTitle">An energetic drink, not an energy drink.</h1>
                     <p className="slideDesc">
-                      But you'll be wondering why it wasn't there all along, when really it was. Its just never quite been this good.
+                      You&rsquo;ve Never Tasted Anything Like It. Lightly salted, juicy juicy
                     </p>
                     <a href="/" className="btn btn-default slideAction">Wait, what?</a>
                     <a href="/" className="btn btn-primary slideAction pull-right">OMG, I get it.</a>
@@ -116,8 +116,9 @@ Home = React.createClass({
                     <img src="http://res.cloudinary.com/saltea/image/upload/dpr_1.0,f_auto,fl_lossy.progressive,q_70/v1473645493/saltea.co/globe-rio-grande.gif"></img>
                   </div>
                   <div className="slideInfo col-md-6">
-                    <h1 className="slideTitle">A New Class of Tea</h1>
-                    <p className="slideDesc">Its like an all natural organic healthier (and tastier) version of that orange drink with the lightning bolt.</p>
+                    <h1 className="slideTitle">A New Class of Tea.</h1>
+                    <p className="slideDesc">Its like an all-natural organic healthier (and tastier) version of that orange drink with the lightning bolt.</p>
+                    <p className="slideDesc">Its actually healthy enough for you .</p>
                     <a href="/" className="btn btn-default slideAction">Still Clueless</a>
                     <a href="/" className="btn btn-primary slideAction pull-right">Find A Store</a>
                   </div>
@@ -127,7 +128,7 @@ Home = React.createClass({
                     <img src="http://res.cloudinary.com/saltea/image/upload/dpr_1.0,f_auto,fl_lossy.progressive,q_70/v1473647398/saltea.co/globe-finger-lakes.gif"></img>
                   </div>
                   <div className="slideInfo col-md-6">
-                    <h1 className="slideTitle">Total Balance 4 Tongues + Bodies</h1>
+                    <h1 className="slideTitle">Flavor that comes to life.</h1>
                     <p className="slideDesc">
                       Some would say its the "roundest" tasting drink. Imagine if coconut water and your favorite sports drink had a baby.
                     </p>
