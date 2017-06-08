@@ -98,7 +98,7 @@ Home = React.createClass({
             {this.loadBackground()}
             <div id="slider">
               <div id="featuredSlider" className="owl-carousel">
-                <div className="slide col-sm-8 col-sm-offset-2 noPadding">
+                <div className="slide col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 noPadding">
                   <div className="slideImage col-md-6 noPadding">
                     <img src="http://res.cloudinary.com/saltea/image/upload/dpr_1.0,f_auto,fl_lossy.progressive,q_70/v1473645494/saltea.co/globe-caribbean-sea.gif"></img>
                   </div>
@@ -111,7 +111,7 @@ Home = React.createClass({
                     <a href="/" className="btn btn-primary slideAction pull-right">OMG, I get it.</a>
                   </div>
                 </div>
-                <div className="slide col-sm-8 col-sm-offset-2 noPadding">
+                <div className="slide col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 noPadding">
                   <div className="slideImage col-md-6 noPadding">
                     <img src="http://res.cloudinary.com/saltea/image/upload/dpr_1.0,f_auto,fl_lossy.progressive,q_70/v1473645493/saltea.co/globe-rio-grande.gif"></img>
                   </div>
@@ -123,7 +123,7 @@ Home = React.createClass({
                     <a href="/" className="btn btn-primary slideAction pull-right">Find A Store</a>
                   </div>
                 </div>
-                <div className="slide col-sm-8 col-sm-offset-2 noPadding">
+                <div className="slide col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 noPadding">
                   <div className="slideImage col-md-6 noPadding">
                     <img src="http://res.cloudinary.com/saltea/image/upload/dpr_1.0,f_auto,fl_lossy.progressive,q_70/v1473647398/saltea.co/globe-finger-lakes.gif"></img>
                   </div>

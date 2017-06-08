@@ -32,8 +32,8 @@
 
   // Location of app (local directory)
   //"app": "/Users/Home/saltea",
-  // "app": "/Users/aaronsmulktis/Projects/Saltea/Apps/saltea.co",
-  "app": "/Users/smokey/Projects/Saltea/Apps/saltea.co",
+  "app": "/Users/aaronsmulktis/Projects/Saltea/Apps/saltea.co",
+  // "app": "/Users/smokey/Projects/Saltea/Apps/saltea.co",
 
   // Configure environment
   "env": {

@@ -58,7 +58,8 @@ MainMenu = React.createClass({
 
         <div id="menuMain">
           <ul>
-            <li><a id="about" className="menu-item" href={this._flowLink("")}>Why Salt?</a></li>
+            <li><a id="about" className="menu-item" href={this._flowLink("what-is-this")}>What Is Saltea?</a></li>
+            <li><a id="about" className="menu-item" href={this._flowLink("what-is-this")}>Why Salt?</a></li>
             <li><a id="history" className="menu-item" href={this._flowLink("")}>The History</a></li>
             <li><a id="about" className="menu-item" href={this._flowLink("")}>Where Can I Buy It?</a></li>
             <li><a id="seller" className="menu-item" href={this._flowLink("")}>Become A Seller</a></li>
@@ -69,9 +70,9 @@ MainMenu = React.createClass({
 
         <div id="menuSub">
           <ul>
-            <li><a id="home" className="menu-item-mini" href={this._flowLink("")}>Contact</a></li>
-            <li><a id="about" className="menu-item-mini" href="//galoremag.com/dmca">Legal</a></li>
-            <li><a id="contact" className="menu-item-mini" href={this._flowLink("")}>Feedback</a></li>
+            <li><a id="home" className="menu-item-mini" href={this._flowLink("contact")}>Contact</a></li>
+            <li><a id="about" className="menu-item-mini" href={this._flowLink("legal")}>Legal</a></li>
+            <li><a id="contact" className="menu-item-mini" href={this._flowLink("contact")}>Feedback</a></li>
           </ul>
         </div>
 
