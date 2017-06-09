@@ -3,46 +3,8 @@ const styles = {
 
 Legal = React.createClass({
 
-  // LIFECYCLE SHIT
-
-  // getInitialState() {
-  //     return {
-  //     }
-  // },
-  //
-  // componentWillMount() {
-  //   // this.setState({
-  //   //   songs: this.props.songs,
-  //   //   currentSong: this.props.currentSong,
-  //   //   nextSong: this.props.nextSong
-  //   // });
-  //   return {
-  //
-  //   }
-  // },
-  //
-  // componentWillMount() {
-  // },
-
   componentDidMount() {
   },
-
-  // componentWillReceiveProps() {
-  // },
-
-  // shouldComponentUpdate() {
-  //   return true;
-  // },
-  //
-  // componentWillUnmount() {
-  //     // document.getElementById("progressBar").removeEventListener("mouseup", false);
-  //     // document.getElementById("fullscreen").removeEventListener("mouseup", false);
-  //     // document.getElementById("mute").removeEventListener("mouseup", false);
-  // },
-
-  // isTouchDevice() {
-  //   return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
-  // },
 
   render() {
 

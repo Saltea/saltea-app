@@ -8,6 +8,9 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: normal;
   text-shadow: 0 0 0;
   .font1;
+  & span {
+    color: @richer;
+  }
 }
 
 h1 {
@@ -23,11 +26,13 @@ a:active, a:focus {
 p {
   .font2;
   font-style: normal;
+  & span {
+    color: @richer;
+  }
+  & a {text-decoration: underline;}
+  & sup a {text-decoration: none;}
+  & a:hover {color: @brand;}
 }
-
-p a {text-decoration: underline;}
-p sup a {text-decoration: none;}
-p a:hover {color: @brand;}
 
 img {
   width: 100%;

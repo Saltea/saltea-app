@@ -93,12 +93,12 @@ Home = React.createClass({
       <div>
 
         <div className="container-fluid noPadding">
-          <div id="heroContainer" className="col-sm-12 col-lg-12 col-lg-offset-0 noPadding">
+          <div id="heroContainer" className="col-sm-12 col-lg-12 noPadding">
             <div id="videoCover"></div>
             {this.loadBackground()}
             <div id="slider">
               <div id="featuredSlider" className="owl-carousel">
-                <div className="slide col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 noPadding">
+                <div className="slide col-sm-8 col-sm-offset-2 noPadding">
                   <div className="slideImage col-md-6 noPadding">
                     <img src="http://res.cloudinary.com/saltea/image/upload/dpr_1.0,f_auto,fl_lossy.progressive,q_70/v1473645494/saltea.co/globe-caribbean-sea.gif"></img>
                   </div>

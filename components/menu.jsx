@@ -59,10 +59,8 @@ MainMenu = React.createClass({
         <div id="menuMain">
           <ul>
             <li><a id="about" className="menu-item" href={this._flowLink("what-is-this")}>What Is Saltea?</a></li>
-            <li><a id="about" className="menu-item" href={this._flowLink("what-is-this")}>Why Salt?</a></li>
-            <li><a id="history" className="menu-item" href={this._flowLink("")}>The History</a></li>
             <li><a id="about" className="menu-item" href={this._flowLink("")}>Where Can I Buy It?</a></li>
-            <li><a id="seller" className="menu-item" href={this._flowLink("")}>Become A Seller</a></li>
+            <li><a id="seller" className="menu-item" href={this._flowLink("")}>Become A Reseller</a></li>
           </ul>
         </div>
 
@@ -70,6 +68,7 @@ MainMenu = React.createClass({
 
         <div id="menuSub">
           <ul>
+            <li><a id="blog" className="menu-item" href="http://blog.saltea.co">Blog</a></li>
             <li><a id="home" className="menu-item-mini" href={this._flowLink("contact")}>Contact</a></li>
             <li><a id="about" className="menu-item-mini" href={this._flowLink("legal")}>Legal</a></li>
             <li><a id="contact" className="menu-item-mini" href={this._flowLink("contact")}>Feedback</a></li>
