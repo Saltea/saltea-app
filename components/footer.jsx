@@ -32,6 +32,7 @@ Footer = React.createClass({
 
               <div className="col-sm-4">
                 <ul>
+                  <li><a id="blog" title="The Daily Brine - Saltea Blog" href="http://blog.saltea.co">Blog</a></li>
                   <li><a href={this._flowLink("contact")} title="About">Contact</a></li>
                   <li><a href={this._flowLink("legal")} title="Legal">Legal</a></li>
                   <li><a href={this._flowLink("feedback")} title="Feedback">Feedback</a></li>
