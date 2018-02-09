@@ -83,7 +83,7 @@ FlowRouter.route('/sellers', {
 FlowRouter.route('/contact', {
   action: function() {
     ReactLayout.render(App, {
-      content: <WhatWrapper key={1} />
+      content: <ContactWrapper key={1} />
     });
   },
   name: 'contact'
