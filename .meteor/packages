@@ -53,3 +53,5 @@ meteorhacks:npm
 npm-container
 meteorhacks:kadira
 email
+check
+ejson

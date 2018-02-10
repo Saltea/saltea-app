@@ -1,21 +1,32 @@
 Contact = React.createClass({
 
   _submitEmail(event) {
-    event.preventDefault();
+    //event.preventDefault();
 
     // Find the text field via the React ref
-    let first = this.refs.firstname.value;
-    let last = this.refs.lastname.value;
+    let name = this.refs.name.value;
     let email = this.refs.email.value;
     let message = this.refs.message.value;
+    let emailSent = false;
+    let emailError = false;
 
     Meteor.call(
       'sendEmail',
       'Mike <mikeparisi@gmail.com>',
-      'whateverdudeyea@gmail.com',
-      'Hello from Meteor!',
-      'This is a test of Email.send.'
+      email,
+      'new message from '+ name,
+      message,
+      (err,result)=>{
+        if (err){
+          emailError = true;
+        }else{
+          emailSent = true;
+        }
+      }
     );
+
+    return false;
+
   },
 
   render() {
@@ -26,19 +37,16 @@ Contact = React.createClass({
             <h2 className="text-center">Contact Saltea.</h2>
             <form className="form loginForm">
               <div className="form-group col-md-6 col-md-offset-3">
-                <input type="text" className="loginFormEffects center-block" ref="firstname" placeholder="First Name" />
+                <input type="text" className="loginFormEffects center-block" ref="name" placeholder="Name" required />
               </div>
               <div className="form-group col-md-6 col-md-offset-3">
-                <input type="text" className="loginFormEffects center-block" ref="lastname" placeholder="Last Name" />
+                <input type="text" className="loginFormEffects center-block" ref="email" placeholder="Email" required />
               </div>
               <div className="form-group col-md-6 col-md-offset-3">
-                <input type="text" className="loginFormEffects center-block" ref="email" placeholder="Email" />
+                <input type="text" className="loginFormEffects center-block" ref="message" placeholder="Message" required />
               </div>
               <div className="form-group col-md-6 col-md-offset-3">
-                <input type="text" className="loginFormEffects center-block" ref="message" placeholder="Message" />
-              </div>
-              <div className="form-group col-md-6 col-md-offset-3">
-                <input type="button" className="center-block" value="Send" onClick={this._submitEmail} />
+                <input type="submit" className="center-block" value="Send" onClick={this._submitEmail} />
               </div>
             </form>
           </div>
