@@ -12,15 +12,30 @@ Contact = React.createClass({
 
     Meteor.call(
       'sendEmail',
-      'Mike <mikeparisi@gmail.com>',
+      'Aaron - Saltea.co <aaron@saltea.co>',
       email,
-      'new message from '+ name,
+      'New Saltea inquiry from ' + name,
       message,
-      (err,result)=>{
-        if (err){
+      (err,result) => {
+        if (err) {
           emailError = true;
-        }else{
-          emailSent = true;
+          return sweetAlert({
+            title: "whoops!",
+            text: "Something went wrong.",
+            showConfirmButton: true,
+            type: "error"
+          });
+        } else {
+          return sweetAlert({
+            title: "Thanks!",
+            text: "Your message has been sent.",
+            showConfirmButton: true,
+            type: "success"
+          });
+
+          this.refs.name.value = "";
+          this.refs.email.value = "";
+          this.refs.message.value = "";
         }
       }
     );
@@ -43,10 +58,10 @@ Contact = React.createClass({
                 <input type="text" className="loginFormEffects center-block" ref="email" placeholder="Email" required />
               </div>
               <div className="form-group col-md-6 col-md-offset-3">
-                <input type="text" className="loginFormEffects center-block" ref="message" placeholder="Message" required />
+                <textarea type="text" className="loginFormEffects center-block" ref="message" placeholder="Message" required />
               </div>
               <div className="form-group col-md-6 col-md-offset-3">
-                <input type="submit" className="center-block" value="Send" onClick={this._submitEmail} />
+                <button className="contactSubmit" onClick={this._submitEmail}>Send</button>
               </div>
             </form>
           </div>

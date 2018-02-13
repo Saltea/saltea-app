@@ -68,7 +68,7 @@ MainMenu = React.createClass({
 
         <div id="menuSub">
           <ul>
-            <li><a id="blog" className="menu-item" href="http://blog.saltea.co">Blog</a></li>
+            <li><a id="blog" className="menu-item" href="http://blog.saltea.co" target="_blank">Blog</a></li>
             <li><a id="home" className="menu-item-mini" href={this._flowLink("contact")}>Contact</a></li>
             <li><a id="about" className="menu-item-mini" href={this._flowLink("legal")}>Legal</a></li>
             <li><a id="contact" className="menu-item-mini" href={this._flowLink("contact")}>Feedback</a></li>
@@ -78,9 +78,9 @@ MainMenu = React.createClass({
         <div id="menuFollow">
           <p>Follow Saltea</p>
           <ul className="list-inline">
-            <li><a className="share-facebook" href="https://facebook.com/saltea.drinks"><i className="fa fa-facebook fa-2x"></i></a></li>
-            <li><a className="share-facebook" href="https://instagram.com/saltea.co"><i className="fa fa-instagram fa-2x"></i></a></li>
-            <li><a className="share-twitter" href="https://twitter.com/drinksaltea"><i className="fa fa-twitter fa-2x"></i></a></li>
+            <li><a className="share-facebook" href="https://facebook.com/saltea.drinks" target="_blank"><i className="fa fa-facebook fa-2x"></i></a></li>
+            <li><a className="share-facebook" href="https://instagram.com/saltea.co" target="_blank"><i className="fa fa-instagram fa-2x"></i></a></li>
+            <li><a className="share-twitter" href="https://twitter.com/drinksaltea" target="_blank"><i className="fa fa-twitter fa-2x"></i></a></li>
           </ul>
         </div>
 

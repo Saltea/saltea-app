@@ -191,11 +191,12 @@ a:hover, a:active {color: black}
 
 // Login/Register forms
 
-.loginForm input {
+.loginForm input, .loginForm textarea, button.contactSubmit {
   padding: 10px;
   width: 80%;
   display: block;
   outline:none;
+  border: 0px;
 }
 
 .loginFormEffects:focus {
@@ -204,8 +205,10 @@ a:hover, a:active {color: black}
 }
 
 .loginForm input[type="button"],
-.loginForm input[type="submit"] {
-  background: black;
+.loginForm input[type="submit"],
+button.contactSubmit {
+  margin: 0 auto;
+  background: @brand;
   color: white;
   border: none;
 }
